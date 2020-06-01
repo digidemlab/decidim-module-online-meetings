@@ -1,0 +1,21 @@
+---
+sv:
+  decidim:
+    components:
+      jitsi_meetings:
+        name: Jitsi Möten
+        settings:
+          global:
+            announcement: Annonsering
+          step:
+            announcement: Annonsering
+    jitsi_meetings:
+      admin:
+        jitsi_meetings:
+          edit:
+            title: Jitsi Möte
+            save: 'Spara'
+        models:
+          components:
+            url: 'Url'
+
