@@ -12,13 +12,18 @@ Space.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'decidim-jitsi_meetings
+gem 'decidim-jitsi_meetings'
 ```
 
 And then execute:
 
 ```bash
 bundle
+```
+
+And:
+```bash
+bundle exec rails decidim_jitsi_meetings:install:migrations
 ```
 
 ## Contributing
